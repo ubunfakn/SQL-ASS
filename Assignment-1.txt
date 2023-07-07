@@ -1,0 +1,4 @@
+create database todo;
+use todo;
+create table tasks (task_id int primary key, task_name varchar(100) not null, description varchar(255) , is_completed boolean not null);
+desc tasks;
